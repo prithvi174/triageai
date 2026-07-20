@@ -12,6 +12,8 @@ This project explores whether an LLM can do that first triage pass reliably — 
 
 ## How it works
 
+![TriageAI demo](assets/demo_screenshot.png)
+
 1. You submit a raw ticket description (e.g. *"VPN keeps disconnecting every 5 minutes"*)
 2. FastAPI passes it to Groq's LLaMA 3.3 70B with a system prompt defining the classification rules
 3. The LLM returns JSON, which gets validated against a strict Pydantic schema (category, priority, team — all constrained to fixed enums, so the model can't return anything invalid)
