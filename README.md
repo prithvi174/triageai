@@ -12,7 +12,8 @@ This project explores whether an LLM can do that first triage pass reliably — 
 
 ## How it works
 
-![TriageAI demo](assets/demo_screenshot.png)
+<img width="1000" height="818" alt="assetsdemo_screenshot png" src="https://github.com/user-attachments/assets/9c8ca0b4-6603-48b3-9e50-4613edc6f45f" />
+
 
 1. You submit a raw ticket description (e.g. *"VPN keeps disconnecting every 5 minutes"*)
 2. FastAPI passes it to Groq's LLaMA 3.3 70B with a system prompt defining the classification rules
