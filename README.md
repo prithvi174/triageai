@@ -1,4 +1,4 @@
-# 🎫 TriageAI
+# TriageAI
 
 **LLM-powered IT support ticket classifier** — takes a raw ticket description and returns its category, priority, and suggested team, with a confidence score and reasoning.
 
